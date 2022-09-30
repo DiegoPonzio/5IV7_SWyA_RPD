@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>VIGGENERE</title>
+</head>
+<body>
+    <form action="" method="post" onsubmit="">
+        <label>Ejemplo del algoritmo Vigenere</label>
+
+        <textarea id="cadena"></textarea>
+
+        <br>
+        <label for="username">Clave del cifrado</label>
+        <input type="text" name="key" id="key" autocomplete="off">
+    
+        <div class="container">
+            <button  class="button type3" type="button" id="Cifrar"><span>Cifrar</span></button>
+            <button class="button type3" type="button" id="Decifrar"><span>Decifrar</span></button>
+        </div>
+        <i class="fa fa-spinner" id="spinner" aria-hidden="true"></i>
+        <i class="fa fa-check" id="check" aria-hidden="true"></i>
+        <br>
+        <div id="resultado" ></div>
+    </form>
+    <script src="./js/viggenere.js"></script>
+</body>
+</html>
